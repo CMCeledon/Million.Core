@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+ <head>
+    <title>Propiedades CMCELEDON</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.cmceledon.com/Recursos/assets/img/favicon/favicon-32x32.png">
+    <script>
+       tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'brand-red': '#91181d', // Rojo Oscuro dominante
+                    'dark-primary': '#F8F8F8', // Blanco/Fondo principal (Cambiado de Negro)
+                    'dark-secondary': '#E0E0E0', // Gris claro (Para fondos secundarios, ej. tarjetas)
+                    'text-light': '#FFFFFF', // Texto Blanco
+                    'text-dark': '#1A1A1A', // Negro suave para títulos
+                }
+            }
+        }
+    }
+    </script>
+</head>
+  <body>
+    <div id="root" style="width: 100%;"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

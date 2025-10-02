@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/21af57bc-4d2e-4cb0-a65c-98eb6ccdf7fd/resourceGroups/rgr-aeu-dev-epagares/providers/microsoft.insights/components/af-aeu-dev-mispagares-servicio-principal</ApplicationInsightsResourceId>
+    <UserSecretsId>c964ddc6-e22c-4b08-a10a-853b3ffd7678</UserSecretsId>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Swashbuckle.AspNetCore" Version="7.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\03. Application\Application\Application.csproj" />
+    <ProjectReference Include="..\..\..\05. Infrastructure\Infrastructure.Repository\Infrastructure.Repository.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Microsoft.AspNetCore.Authorization" />
+		<Using Include="Microsoft.AspNetCore.Mvc" />
+		<Using Include="Application.Abstract" />
+		<Using Include="Application.Helpers" />
+		<Using Include="Transversal.Dto" />
+		<Using Include="Transversal.Helpers" />
+		<Using Include="System.Text" />
+		<Using Include="Microsoft.IdentityModel.Tokens" />
+		<Using Include="Infrastructure.Repository.Helpers" />
+		<Using Include="Infrastructure.Repository" />
+		<Using Include="Infrastructure.Interface" />
+		<Using Include="Application.Implements" />
+		<Using Include="Microsoft.OpenApi.Models" />
+		<Using Include="Microsoft.AspNetCore.Diagnostics" />
+		<Using Include="System.Diagnostics" />
+	</ItemGroup>
+
+	<ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+	
+</Project>
