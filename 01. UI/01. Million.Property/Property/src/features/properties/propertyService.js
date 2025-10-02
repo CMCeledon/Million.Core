@@ -45,7 +45,7 @@
  */
 
 // --- D E F I N I C I Ó N   C E N T R A L   D E   L A   U R L ---
-const BASE_URL = 'http://localhost:5000/api/property';
+const BASE_URL = 'https://apimillion.cmceledon.com/api/property';
 // ----------------------------------------------------------------
 
 // --- UTILITY FUNCTIONS ---

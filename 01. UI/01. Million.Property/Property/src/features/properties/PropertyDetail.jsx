@@ -35,7 +35,7 @@ const PropertyDetail = ({ id, onBack }) => {
           <p className="text-gray-600 mb-6">{error.message}</p>
           <button
             onClick={onBack}
-            className="px-6 py-3  text-white rounded-lg font-semibold"
+            className="px-6 bg-brand-red py-3 text-white rounded-lg font-semibold"
           >
             Volver al listado
           </button>
@@ -56,7 +56,7 @@ const PropertyDetail = ({ id, onBack }) => {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <button
             onClick={onBack}
-            className="flex items-center gap-2 font-semibold"
+            className="flex bg-brand-red items-center gap-2 font-semibold"
           >
             <span className="text-xl">←</span>
             <span>Volver al listado</span>
