@@ -44,6 +44,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Property.Innternal.Api.Test
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "property", "01. UI\01. Million.Property\Property\property.esproj", "{48D11310-E946-A8D0-7E2D-F3883A8CE1DF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. ExportDB", "09. ExportDB", "{2FC1D43B-81D6-4E1D-A600-D4589C7F2CEA}"
+	ProjectSection(SolutionItems) = preProject
+		09. ExportDB\million.Owners.json = 09. ExportDB\million.Owners.json
+		09. ExportDB\million.Properties.json = 09. ExportDB\million.Properties.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

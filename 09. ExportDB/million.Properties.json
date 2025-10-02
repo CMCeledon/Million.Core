@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "68de3cf232ae2c578b7edafb"
+  },
+  "Name": "Home AVW",
+  "Address": "Calle AVW 123, Bogotá DC",
+  "Price": 350000000,
+  "CodeInternal": "HOME01",
+  "Year": 2025,
+  "IdOwner": {
+    "$oid": "68de3a6e32ae2c578b7edaf8"
+  },
+  "Images": [],
+  "Traces": []
+},
+{
+  "_id": {
+    "$oid": "68de428a3a5ae6bfb91b6984"
+  },
+  "Name": "Residencia El Roble",
+  "Address": "Carrera 98 # 20-30, Lote 5",
+  "Price": 780500000,
+  "CodeInternal": "CASA-002",
+  "Year": 2010,
+  "IdOwner": {
+    "$oid": "68de41d33a5ae6bfb91b697c"
+  },
+  "Images": [
+    {
+      "file": "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+      "Enabled": true
+    },
+    {
+      "file": "https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg",
+      "Enabled": true
+    },
+    {
+      "file": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+      "Enabled": false
+    }
+  ],
+  "Traces": [
+    {
+      "DateSale": {
+        "$date": "2024-01-15T00:00:00.000Z"
+      },
+      "Name": "Avaluación Inicial",
+      "Value": 750000000,
+      "Tax": 0
+    },
+    {
+      "DateSale": {
+        "$date": "2024-03-20T00:00:00.000Z"
+      },
+      "Name": "Revisión de Impuestos",
+      "Value": 780500000,
+      "Tax": 5500000
+    }
+  ]
+}]

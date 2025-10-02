@@ -1,0 +1,35 @@
+[{
+  "_id": {
+    "$oid": "68de3a6e32ae2c578b7edaf8"
+  },
+  "Name": "Katerine Pitre",
+  "Address": "Calle AVW 123, Bogotá DC",
+  "Photo": "https://randomuser.me/api/portraits/women/1.jpg",
+  "Birthday": {
+    "$date": "1990-05-20T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de41d33a5ae6bfb91b697c"
+  },
+  "Name": "Manuel Díaz",
+  "Address": "Carrera 98 # 20-30, Medellín",
+  "Photo": "https://randomuser.me/api/portraits/men/5.jpg",
+  "Birthday": {
+    "$date": "1975-11-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68de41de3a5ae6bfb91b697e"
+  },
+  "Name": "Lucía Pérez",
+  "Address": "Avenida Sur 5-10, Cali",
+  "Photo": "https://randomuser.me/api/portraits/women/12.jpg",
+  "Birthday": {
+    "$date": {
+      "$numberLong": "-315619200000"
+    }
+  }
+}]
